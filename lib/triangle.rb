@@ -43,8 +43,6 @@ class Triangle
     (@side1 + @side2 > @side3) && (@side2 + @side3 > @side1) && (@side1 + @side3 > @side2)
   end
 
-
-
   def no_sides
           @sides.each do |length|
             if(length <= 0)
